@@ -55,9 +55,22 @@ html{
   padding-bottom: 35%;
 }
 
-#contatos{
+#contato{
   padding-bottom: 1%;
-  backgrond-color: #343a40;
+  background-color: #343a40;
+}
+#formulario{
+  background-color: #343a40;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#localizacao{
+  background-color: #343a40;
+  padding-top: 2%;
+  padding-left: 10%;
+}
+#sobre{
+  padding-top: 2%;
 }
 /* TEXTOS */
 
@@ -91,6 +104,16 @@ html{
   padding-left: 5%;
   padding-right: 38%;
   text-align: justify;
+}
+.titulos-formulario{
+  font-size: 200%;
+}
+.textos-formulario{
+  font-size: 120%;
+}
+.formulario{
+  font-family: "Montserrat" !important;
+  color: #F0F8FF;
 }
 
 /* TABELA */
@@ -157,4 +180,17 @@ td, th{
 
 .imagem-esquerda:hover, .imagem-direita:hover{
   background-color: white;
+}
+
+/* MAPAS */
+@media (max-width: 780px) {
+  #mapa-localizacao{
+    width: 70%;
+    height: 60%;
+    margin left: 10%;
+  }
+}
+/* BOTOES */
+#botao-formulario{
+  margin-top: 2%;
 }
